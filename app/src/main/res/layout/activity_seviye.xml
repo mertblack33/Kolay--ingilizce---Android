@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/isim"
+    tools:context=".seviye"
+
+    >
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:onClick="ilkokul"
+        android:text="A2 BAŞLANGIÇ"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:onClick="ilkokul"
+        android:text="B1 ORTA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:onClick="ilkokul"
+        android:text="B2 ORTA"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button13"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button13"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:onClick="ilkokul"
+        android:text="C1 İLERİ SEVİYE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button12"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:onClick="ilkokul"
+        android:text="C2 İLERİ SEVİYE"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button15"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="223dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:onClick="ilkokul"
+        android:text="A1 BAŞLANGIÇ"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="310dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="216dp"
+        android:fontFamily="@font/aclonica"
+        android:text="LÜTFEN SEVİYE SEÇİNİZ."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

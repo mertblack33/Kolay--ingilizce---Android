@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#D76A6A">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="304dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/arayuz"
+        android:fontFamily="@font/aclonica"
+        android:text="A1"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Spinner
+        android:id="@+id/gider"
+        android:layout_width="360dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/arayuz"
+        android:clickable="false"
+        android:contextClickable="false"
+        android:ems="20"
+        android:inputType="textPersonName"
+        android:scrollbarSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="280dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/basla" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="150dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/start"
+        app:layout_constraintEnd_toEndOf="@+id/gider"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="@+id/gider"
+        app:layout_constraintTop_toBottomOf="@+id/gider" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="313dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/button1"
+        android:fontFamily="@font/aclonica"
+        android:text="ŞUANKİ SEVİYENİZ"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.556"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/selector"
+            android:button="@color/white"
+            android:checked="true"
+            android:drawableTop="@drawable/time_on"
+            android:text="SÜRELİ"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:background="@drawable/selector"
+            android:button="@color/white"
+            android:drawableTop="@drawable/time_off"
+            android:text="SÜRESİZ"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="48dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="64dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/token" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/aclonica"
+        android:text="18500"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button7"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/gider"
+        app:srcCompat="@drawable/free" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

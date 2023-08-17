@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Kolay İngilizce</string>
+    <string-array name="gidercesiti">
+        <item>BÖLÜM SEÇ</item>
+        <item>1. BÖLÜM</item>
+        <item>2. BÖLÜM</item>
+        <item>3. BÖLÜM</item>
+        <item>4. BÖLÜM</item>
+        <item>5. BÖLÜM</item>
+        <item>6. BÖLÜM</item>
+        <item>7. BÖLÜM</item>
+        <item>8. BÖLÜM</item>
+        <item>9. BÖLÜM</item>
+        <item>10. BÖLÜM</item>
+    </string-array>
+    <string-array name="seviyegenel">
+        <item>SEVİYE SEÇ</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>B1</item>
+        <item>B2</item>
+        <item>C1</item>
+        <item>C2</item>
+    </string-array>
+    <string-array name="seviyeilkokul">
+        <item>SINIF SEÇ</item>
+        <item>2.SINIF</item>
+        <item>3.SINIF</item>
+        <item>4.SINIF</item>
+    </string-array>
+    <string-array name="seviyeortaokul">
+        <item>SINIF SEÇ</item>
+        <item>5.SINIF</item>
+        <item>6.SINIF</item>
+        <item>7.SINIF</item>
+        <item>8.SINIF</item>
+    </string-array>
+    <string-array name="seviyelise">
+        <item>SINIF SEÇ</item>
+        <item>9.SINIF</item>
+        <item>10.SINIF</item>
+        <item>11.SINIF</item>
+        <item>12.SINIF</item>
+    </string-array>
+
+
+    // İLK OKUL
+
+
+    <string-array name="sınıf2">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE WORDS</item>
+        <item>2. ÜNİTE FRIENDS</item>
+        <item>3. ÜNİTE IN THE CLASSROOM</item>
+        <item>4. ÜNİTE NUMBERS</item>
+        <item>5. ÜNİTE COLOURS</item>
+        <item>6. ÜNİTE AT THE PLAYGROUND</item>
+        <item>7. ÜNİTE BODY PARTS</item>
+        <item>8. ÜNİTE PETS</item>
+        <item>9. ÜNİTE FRUIT</item>
+
+    </string-array>
+    <string-array name="sınıf3">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE GREETING</item>
+        <item>2. ÜNİTE MY FAMILY</item>
+        <item>3. ÜNİTE PEOPLE I LOVE</item>
+        <item>4. ÜNİTE FEELINGS</item>
+        <item>5. ÜNİTE TOYS AND GAMES</item>
+        <item>6. ÜNİTE MY HOUSE</item>
+        <item>7. ÜNİTE IN MY CITY</item>
+        <item>8. ÜNİTE TRANSPORTATION</item>
+        <item>9. ÜNİTE WEATHER</item>
+
+    </string-array>
+    <string-array name="sınıf4">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE CLASSROOM RULES</item>
+        <item>2. ÜNİTE NATIONALITY</item>
+        <item>3. ÜNİTE CARTOON CHARACTERS</item>
+        <item>4. ÜNİTE FREE TIME</item>
+        <item>5. ÜNİTE MY DAY</item>
+        <item>6. ÜNİTE FUN WITH SCIENCE</item>
+        <item>7. ÜNİTE JOBS</item>
+        <item>8. ÜNİTE MY CHLOTHES</item>
+        <item>9. ÜNİTE MY FRIENDS</item>
+    </string-array>
+
+
+    // ORTA OKUL
+
+
+    <string-array name="sınıf5">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE HELLO</item>
+        <item>2. ÜNİTE MY TOWN</item>
+        <item>3. ÜNİTE GAMES AND HOBBIES</item>
+        <item>4. ÜNİTE MY DAILY ROUTINE</item>
+        <item>5. ÜNİTE HEALTH</item>
+        <item>6. ÜNİTE MOVIES</item>
+        <item>7. ÜNİTE PARTY TIME</item>
+    </string-array>
+    <string-array name="sınıf6">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE LIFE</item>
+        <item>2. ÜNİTE YUMMY BREAKFAST</item>
+        <item>3. ÜNİTE DOWNTOWN</item>
+        <item>4. ÜNİTE WEATHER AND EMOTIONS</item>
+        <item>5. ÜNİTE AT THE FAIR</item>
+        <item>6. ÜNİTE OCCUPATIONS</item>
+        <item>7. ÜNİTE HOLIDAYS</item>
+        <item>8. ÜNİTE BOOKWORMS</item>
+        <item>9. ÜNİTE SAVING THE PLANET</item>
+        >
+    </string-array>
+    <string-array name="sınıf7">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE APPEARANCE AND PERSONALITY</item>
+        <item>2. ÜNİTE SPORTS</item>
+        <item>3. ÜNİTE BIOGRAPHIES</item>
+        <item>4. ÜNİTE WILD ANIMALS</item>
+        <item>5. ÜNİTE TELEVISION</item>
+        <item>6. ÜNİTE CELEBRATIONS</item>
+        <item>7. ÜNİTE DREAMS</item>
+        <item>8. ÜNİTE PUBLIC BUILDINGS</item>
+        <item>9. ÜNİTE ENVIRONMENT</item>
+
+    </string-array>
+    <string-array name="sınıf8">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE Friendship</item>
+        <item>2. ÜNİTE Teen Life</item>
+        <item>3. ÜNİTE In the Kitchen</item>
+        <item>4. ÜNİTE On the Phone</item>
+        <item>5. ÜNİTE The Internet</item>
+        <item>6. ÜNİTE Adventures</item>
+        <item>7. ÜNİTE Tourism</item>
+        <item>8. ÜNİTE Chores</item>
+        <item>9. ÜNİTE Science</item>
+    </string-array>
+
+
+    // LİSE
+
+    <string-array name="sınıf9">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE STUDYING ABROAD</item>
+        <item>2. ÜNİTE MY ENVIRONMENT</item>
+        <item>3. ÜNİTE MOVIES</item>
+        <item>4. ÜNİTE HUMAN IN NATURE</item>
+        <item>5. ÜNİTE INSPIRATIONAL PEOPLE</item>
+        <item>6. ÜNİTE BRIDGING CULTURES</item>
+        <item>7. ÜNİTE WORLD HERITAGE</item>
+        <item>8. ÜNİTE EMERGENCY AND HEALTH PROBLEMS</item>
+    </string-array>
+    <string-array name="sınıf10">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE SCHOOL LIFE</item>
+        <item>2. ÜNİTE PLANS</item>
+        <item>3. ÜNİTE LEGENDARY FIGURES</item>
+        <item>4. ÜNİTE TRADITIONS</item>
+        <item>5. ÜNİTE TRAVEL</item>
+        <item>6. ÜNİTE HELPFUL TIPS</item>
+        <item>7. ÜNİTE FOOD AND FESTIVALS</item>
+        <item>8. ÜNİTE DIGITAL ERA</item>
+        <item>9. ÜNİTE MODERN HEROES AND HEROINES</item>
+
+    </string-array>
+    <string-array name="sınıf11">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE FUTURE JOBS</item>
+        <item>2. ÜNİTE HOBBIES AND SKILLS</item>
+        <item>3. ÜNİTE HARD TIMES</item>
+        <item>4. ÜNİTE WHAT A LIFE</item>
+        <item>5. ÜNİTE BACK TO THE PAST</item>
+        <item>6. ÜNİTE OPEN YOUR HEART</item>
+        <item>7. ÜNİTE FACTS ABOUT TURKEY</item>
+        <item>8. ÜNİTE SPORTS</item>
+        <item>9. ÜNİTE MY FRIENDS</item>
+
+    </string-array>
+    <string-array name="sınıf12">
+        <item>ÜNİTE SEÇ</item>
+        <item>1. ÜNİTE MUSIC</item>
+        <item>2. ÜNİTE FRIENDSHIP</item>
+        <item>3. ÜNİTE HUMAN RIGHTS</item>
+        <item>4. ÜNİTE COMING SOON</item>
+        <item>5. ÜNİTE PSYCHOLOGY</item>
+        <item>6. ÜNİTE FAVORS</item>
+        <item>7. ÜNİTE NEWS STORIES</item>
+        <item>8. ÜNİTE ALTERNATIVE ENERGY</item>
+        <item>9. ÜNİTE TECHNOLOGY</item>
+
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="2"
+    android:versionName="2.1" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kolayİngilizce"
+        tools:targetApi="31">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9283206876818854~8395923168" />
+        <activity
+            android:name=".lise.Kelimelise"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ortaokul.Kelimeortaokul"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ilkokul.Kelimeilkokul"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".lise.lisesec"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ortaokul.ortaokulsec"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ilkokul.ilkokulsec"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ortaokul.Bolumortaokul"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ilkokul.Bolumilkokul"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".lise.Bolumlise"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".c1c2.Bolum3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".b1b2.Bolum2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".c1c2.kelime3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".b1b2.kelime2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".seviye"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".a1a2.Bolum"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".a1a2.kelime"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
